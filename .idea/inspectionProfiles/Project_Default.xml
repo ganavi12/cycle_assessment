@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="w2c_dashboard.w2c_app.payload_interceptors.file_upload_download.ticket_id" />
+          <option value="SorocoW2CAutomationSystem.tests.test_process_fetch_tickets.soroco_w2c_as" />
+          <option value="SorocoW2CAutomationSystem.src.soroco_w2c_as.process_modules.process_create_w2c.soroco_w2c_as" />
+          <option value="soroco_w2c_as.process_modules.process_create_w2c.process_create_w2c_helper.*" />
+          <option value="object.last_fetch_time" />
+          <option value="object.__getitem__" />
+          <option value="SorocoPillPackDPDashboard.src.pill_pack_dashboard.root_app.settings.soroco_data_analytics_dashboard" />
+          <option value="pill_pack_dashboard.root_app.settings.DashboardConfig" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
